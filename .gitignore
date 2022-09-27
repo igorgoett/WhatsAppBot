@@ -116,6 +116,10 @@ ENV/
 env.bak/
 venv.bak/
 
+#sideprojects
+msg.py
+PyWhatKit_DB.txt
+
 # Spyder project settings
 .spyderproject
 .spyproject
