@@ -1,4 +1,3 @@
-from tkinter.font import names
 import pandas as pd
 
 excel_file = 'contatos.xlsx'
