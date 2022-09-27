@@ -3,7 +3,7 @@ import pywhatkit
 import pyautogui
 import time
 from tkinter import *
-from contacts import Names, new_phones
+from contacts import first_names, new_phones
 
 win = Tk() # Some Tkinter stuff
 screen_width = win.winfo_screenwidth() # Gets the resolution (width) of your monitor
@@ -11,8 +11,8 @@ screen_height= win.winfo_screenheight() # Gets the resolution (height) of your m
 cont = 0
 
 
-while cont < len(Names):
-    msg = f"Bom dia Sr.(a) {Names[cont]}\nMeu nome é Jenniffer, sou da Construtora Você, gostaria de saber se o Sr. (a) está tendo alguma dúvida em relação ao seu Financiamento Imobiliário? Possui aplicativo de Habitação Caixa? Está tendo alguma dificuldade no seu relacionamento com a CAIXA ECONÔMICA FEDERAL?\nE em relação as suas parcelas em aberto conosco, gostaria de verificar se o senhor (a) possui alguma previsão para pagamento?\nCaso já tenha realizado o pagamento, gentileza desconsiderar a mensagem acima.\nAtenciosamente\n\nRelacionamento com o Cliente\n"
+while cont < len(first_names):
+    msg = f"Bom dia Sr.(a) {first_names[cont]}\nMeu nome é Jenniffer, sou da Construtora Você, gostaria de saber se o Sr. (a) está tendo alguma dúvida em relação ao seu Financiamento Imobiliário? Possui aplicativo de Habitação Caixa? Está tendo alguma dificuldade no seu relacionamento com a CAIXA ECONÔMICA FEDERAL?\nE em relação as suas parcelas em aberto conosco, gostaria de verificar se o senhor (a) possui alguma previsão para pagamento?\nCaso já tenha realizado o pagamento, gentileza desconsiderar a mensagem acima.\nAtenciosamente\n\nRelacionamento com o Cliente\n"
 
     pywhatkit.sendwhatmsg_instantly(new_phones[cont], msg) # Sends the message
     cont += 1
