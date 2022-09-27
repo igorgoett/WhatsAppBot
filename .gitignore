@@ -3,9 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+<<<<<<< HEAD
 contatos.txt
 PyWhatKit_DB.txt
 
+=======
+>>>>>>> 902dd6552c92b8bd7a3cf9c3f18fc79c67aa0620
 # C extensions
 *.so
 
@@ -137,4 +140,8 @@ media/
 staticfiles/
 .idea
 .ipynb_checkpoints/
+<<<<<<< HEAD
 .vscode
+=======
+.vscode
+>>>>>>> 902dd6552c92b8bd7a3cf9c3f18fc79c67aa0620
