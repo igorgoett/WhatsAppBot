@@ -117,6 +117,8 @@ env.bak/
 venv.bak/
 
 #sideprojects
+msg_adi.py
+msg_inad.py
 msg.py
 PyWhatKit_DB.txt
 

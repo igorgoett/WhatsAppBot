@@ -17,10 +17,10 @@ while cont < len(first_names):
     pywhatkit.sendwhatmsg_instantly(new_phones[cont], msg.msg(first_names,cont)) # Sends the message
     cont += 1
     pyautogui.moveTo(screen_width * 0.694, screen_height* 0.900) # Moves the cursor the the message bar in Whatsapp || CHANGE HEIGHT ACCORDING
-    time.sleep(10)
+    time.sleep(5)
     pyautogui.click() # Clicks the bar
     pyautogui.press('enter') # Sends the message
-    time.sleep(10)
+    time.sleep(5)
     pyautogui.hotkey('ctrl','w')
-    time.sleep(10)
+    time.sleep(5)
     pyautogui.press('enter') # Sends the message
